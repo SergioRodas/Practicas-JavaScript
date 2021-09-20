@@ -12,4 +12,12 @@ console.log(mascota.vivo)
 
 mascota.id = 1
 
+const nombreMascota = mascota.nombre
+
+const {edad, vivo} = mascota
+
 console.log(mascota.id)
+
+console.log(nombreMascota)
+console.log(vivo)
+console.log(edad)
